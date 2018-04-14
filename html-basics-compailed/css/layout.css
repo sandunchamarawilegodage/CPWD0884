@@ -1,0 +1,368 @@
+body{
+	width: 1240px;
+	margin-left: auto;
+	margin-right: auto; 
+	padding: 0px 20px;
+
+}
+img{
+	padding: 8px;
+	
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+/*header styles*/
+header{
+	height: 110px;
+	background: turquoise;
+	margin: 0 auto;
+	width: 1240px;
+	position: relative;
+	z-index: 5;
+	position: relative;
+}
+footer{
+	color: aliceblue;
+	width: 1240px;
+	z-index: 1;
+	float: none;
+}
+#ui-datepicker-div{
+	position: relative;
+	z-index: 6;
+}
+.header-wrapper {
+	background-color: red;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+}
+
+header img{
+	position: relative;
+   
+}
+
+
+
+
+.hgroup{
+	display: inline-block;
+	position: relative;
+    top: -25px;
+    right: -180px;
+}
+
+h1,h2{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.search{
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+    right: 20px;
+
+
+}
+.search i{
+	color: white;
+
+}
+
+.search i:hover{
+	color: blue;
+
+}
+
+.smo{
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+	right: 20px;
+}
+.smo li{
+	display: inline-block;
+	
+}
+
+/*menu-styles*/
+
+/*left-pane*/
+.left-pane{
+	display: inline-block;
+	width: 372px;
+	vertical-align: top;
+	padding: 10px;
+	margin-top: 95px;
+	z-index: 1;
+}
+.ui-datepicker{
+	position: relative;
+	z-index: 6;
+}
+.latest-news{
+	padding: 15px;
+	border: 1px solid;
+	
+	
+}
+.latest-news ul {
+	padding: 0px;
+}
+
+.latest-news li {
+	list-style: none;
+}
+
+p {
+	text-align: justify;
+
+}
+.l-news{
+	height: 360px;
+	overflow: auto;
+
+}
+
+.upcoming-events{
+	padding: 15px;
+	border: 1px solid;
+	
+}
+.upcoming-events ul {
+	padding: 0px;
+	text-align: center;
+}
+
+.up-events li{
+	list-style: none;
+}
+.up-events{
+	height: 560px;
+	overflow: auto;
+}
+
+/*right-pane*/
+.right-pane{
+	width: 848px;
+	padding: 0px;
+	background: pink;
+	margin-top: 95px;
+	z-index: 1;
+	
+
+
+}
+/*main content*/
+.main-content{
+	
+	
+}
+.main-content p{
+	
+	padding: 10px;
+}
+.main-content img{
+	padding: 10px;
+}
+/**/
+.sub-gallery{
+	border: 1px solid;
+
+}
+.sub-gallery ul {
+	padding: 0;
+	text-align: center;
+}
+.s-gallery li{
+	display: inline-block;
+	list-style: none;
+}
+
+
+.feature-boxses > div{
+	display: inline-block;
+	width: 273px;
+	vertical-align: top;
+	height: 526px;
+	background: wheat;
+	border: 1px solid ;
+	padding: 2px;
+	text-align: center;
+
+}
+
+.feature-boxses p{
+	
+	padding: 10px;
+}
+
+.feature-boxses{
+	display: inline-block;
+	position:relative;
+	top: 2px;
+	z-index: 1;
+}
+.my-ul ul{
+	color:white;
+	padding: 10px;
+	background: green;
+
+}
+.my-ul li{
+
+	display: inline-block;
+}
+	
+
+@media screen and (max-width:768px) and (min-width: 481px){
+	body{
+		width: 748px;
+		margin-left: auto;
+		margin-right: auto; 
+		padding: 0px 10px;
+		float: none;
+
+	}
+	
+	.hgroup{
+		display: inline-block;
+		position: relative;
+	    top: -45px;
+	    right: -40px;
+
+
+
+	}
+	h1{
+		font-size: 21px;
+	}
+
+	h2{
+		font-size: 13px;
+	}
+	.left-pane{
+		width: 748px;
+		margin-top: 0;
+	}
+	
+	.right-pane{
+		width: 748px;
+		position: relative;
+		left: 0px;
+		margin-top: 94px;
+	}
+	.main-content{
+		width: 100%;
+	}
+	.latest-news{
+		width: 100%;
+	}
+	.feature-boxses > div{
+		width: 240px;
+		height: 550px;
+	}
+	header{
+		width: 748px;
+	}
+	.header-wrapper{
+		width: 100%;
+	}
+
+	footer{
+		width: 748px;
+	}
+	
+	.latest-news{
+		padding:0;
+		
+		
+	}
+	.l-news{
+		height: 90px;
+		overflow: hidden;
+
+	}
+	.up-events{
+		height: 90px;
+		overflow: hidden;
+	}
+	.up-events img{
+		display: none;
+	}
+
+
+}
+
+@media screen and (max-width:480px){
+	body{
+		width: 460px;
+		margin-left: auto;
+		margin-right: auto; 
+		padding: 0px 10px;
+		float: none;
+
+	}
+	.left-pane{
+		width: 460px;
+		margin-top: 0;
+	}
+	
+	.right-pane{
+		width: 460px;
+		position: relative;
+		left: 0px;
+		margin-top: 110px;
+	}
+	.main-content{
+		width: 100%;
+	}
+	.latest-news{
+		width: 100%;
+	}
+	.feature-boxses > div{
+		width: 460px;
+		height: auto;
+	}
+	header{
+		width: 460px;
+	}
+	.header-wrapper{
+		width: 100%;
+	}
+
+	footer{
+		width: 460px;
+	}
+	
+	.latest-news{
+		padding:0;
+		
+		
+	}
+	.l-news{
+		height: 90px;
+		overflow: hidden;
+
+	}
+	.up-events{
+		height: 90px;
+		overflow: hidden;
+	}
+	.up-events img{
+		display: none;
+	}
+	.feature-boxses{
+		display: block;
+		width: 100%;
+	}
+}

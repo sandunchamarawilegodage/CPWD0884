@@ -1,0 +1,82 @@
+/*
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Arvo', serif;
+
+	Color Wheel
+	Heading Level 1 :#133C57 ;Dark blue
+	Heading Level 2 :#3498DB ;Light blue
+	Bg Color : #ECF0F1; Off White
+	Text: #2C3E50;
+
+	Anchor
+	Default :#3498DB ;Light blue with underline
+	Hover :#1A7DD7 ;Light blue with underline
+	
+	Orange : #E74C3C
+	Btns 
+	primary ---
+	Default
+	Bg color : #3498DB; Light Blue
+	hover
+	Bg color : #133C57; Dark Blue
+*/
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #2C3E50;
+	background: indigo;
+
+}
+h1,h2{
+	font-family: 'Arvo', serif;
+
+}
+h1{
+	color: #133C57;
+}
+h2{
+	color: #3498DB;
+}
+h3 {
+	color: #133C57;
+
+}
+a{
+	color: #3498DB;
+}
+
+
+
+
+
+
+.main-navigation a{
+	text-decoration: none;
+	color: #E74C3C
+
+}
+.main-navigation a:hover{
+	color: #1A7DD7 
+}
+
+
+.left-pane{
+	background: skyblue;
+}
+
+
+.smo i{
+	color: white;
+}
+.smo i:hover{
+	color: blue;
+}
+.upcoming-events i{
+	color: white;
+}
+
+
+.upcoming-events i:hover{
+	color: black;
+}
